@@ -15,7 +15,7 @@
       Share on whatsapp
     </button>
 
-    <button class="actions__btn copy" @click="shareFact()">
+    <button class="actions__btn copy" @click="copyFact()">
       Copy text
     </button>
   </div>
@@ -41,6 +41,10 @@ setup(){
     window.open(`
     https://api.whatsapp.com/send?text=Here is a true fact about Chuck Noris: ${fact.value}
     `)
+  }
+
+  function copyFact() {
+    navigator.clipboard.writeText(`Here is a true fact about Chuck Noris: ${fact.value}`);
   }
 
   onMounted(() => {
