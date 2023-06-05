@@ -1,7 +1,16 @@
-# Vue 3 + Vite
+# Chuck Norris Super Real True Facts
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Project created usign the [Chuck Norris API](https://api.chucknorris.io/).
 
-## Recommended IDE Setup
+# Project Ideia
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Create a website where the layout feels like a 90's website, but usign modern CSS and HTML. 
+
+The layout is responsive, so you can see the facts anywhere you want!
+
+## Actions you can (and should) do
+
+- Have fun reading amazing super real true facts about Chuck Norris
+- Share the super real true facts about Chuck Norris in Whatsapp
+  - **IMPORTANT:** The share button will open a new window to share the fact, but it only appears on mobile devices, since the way it works is opening the Whatsapp API
+- Copy the super real true facts about Chuck Norris so you can share anywhere you want!
