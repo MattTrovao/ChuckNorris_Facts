@@ -4,17 +4,25 @@ Project created usign the [Chuck Norris API](https://api.chucknorris.io/).
 
 ## Run the Project
 
+Cloning and navigate to the project folder
 ```sh
 git clone https://github.com/MattTrovao/ChuckNorris_Facts/
 
 cd ChuckNorris_Facts
+```
 
+Install dependencies
+```sh
 npm i
+```
 
-// Runs in Localhost
+Run project in Localhost
+```sh
 npm run dev
+```
 
-// Runs in the Host (useful to see in mobile)
+Runs project in the Host (useful to see in mobile)
+```sh
 npm run host 
 ```
 
