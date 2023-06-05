@@ -53,6 +53,10 @@ $tablet: 992px;
     margin: 0;
     .actions__btn {
       padding: 10px;
+
+      &.share{
+        display: block;
+      }
     }
   }
 }
@@ -64,6 +68,10 @@ $tablet: 992px;
     top: unset;
     left: unset;
     padding: 2rem 2rem;
+  }
+
+  .header{
+    padding: 8px;
   }
 
   .warning{

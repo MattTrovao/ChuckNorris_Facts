@@ -158,10 +158,22 @@
 
     &.share{
       border-color: $secondary;
+      display: none;
     }
 
     &.copy{
       border-color: $tertiary;
     }
+  }
+}
+
+.footer{
+  background: $white;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+
+  .footer__text{
+    font-size: $footer;
   }
 }

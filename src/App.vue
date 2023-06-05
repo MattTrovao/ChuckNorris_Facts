@@ -7,7 +7,14 @@
         Chuck Norris Super Real True Facts
       </h1>
     </header>
+    
     <Facts />
+
+    <footer class="footer">
+      <p class="footer__text">
+        Project created using the Chuck Norris API. This website and its creators are not affiliated with Chuck Norris, any motion picture corporation, any television corporation, parent, or affiliate corporation. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners.
+      </p>
+    </footer>
   </div>
 
   <SealOfTrue position="left" />
