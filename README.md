@@ -2,6 +2,23 @@
 
 Project created usign the [Chuck Norris API](https://api.chucknorris.io/).
 
+## Run the Project
+
+```sh
+git clone https://github.com/MattTrovao/ChuckNorris_Facts/
+
+cd ChuckNorris_Facts
+
+npm i
+
+// Runs in Localhost
+npm run dev
+
+// Runs in the Host (useful to see in mobile)
+npm run host 
+```
+
+
 # Project Ideia
 
 Create a website where the layout feels like a 90's website, but usign modern CSS and HTML. 
