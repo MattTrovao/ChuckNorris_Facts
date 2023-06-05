@@ -4,7 +4,7 @@
   <div class="container">
     <header class="header">
       <h1 class="header__title">
-        Chuck Noris Super Real True Facts
+        Chuck Norris Super Real True Facts
       </h1>
     </header>
     <Facts />

@@ -4,7 +4,7 @@
 
     <p class="warning__text">
       Everything here is 100% true!!! <br/><br/>
-      If you don't believe, Chuck Noris will visit you!!!
+      If you don't believe, Chuck Norris will visit you!!!
     </p>
   </div>
 </template>

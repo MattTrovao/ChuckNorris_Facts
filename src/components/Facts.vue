@@ -86,7 +86,7 @@ export default {
 
     function shareFact() {
       window.open(`
-    https://api.whatsapp.com/send?text=Here is a true fact about Chuck Noris: ${fact.value}
+    https://api.whatsapp.com/send?text=Here is a true fact about Chuck Norris: ${fact.value}
     `);
     }
 
@@ -95,7 +95,7 @@ export default {
       copyDisabled.value = true;
       setTimeout(() => {
         navigator.clipboard.writeText(
-          `Here is a true fact about Chuck Noris: ${fact.value}`
+          `Here is a true fact about Chuck Norris: ${fact.value}`
         );
         copyDisabled.value = false;
       }, 1500);
