@@ -75,8 +75,27 @@
   }
 }
 
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.pictures{
+  margin-left: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+  img{
+    height: 80%;
+  }
+}
+
 .facts{
-  padding: 20px 50px;
+  padding: 20px 20px;
   background: $white;
   position: relative;
   border: 5px solid $primary;
@@ -102,6 +121,7 @@
   }
 
   h2{
+    z-index: 2;
     font-size: $text;
     font-weight: $regular;
     &:first-letter{
@@ -123,8 +143,13 @@
     font-size: $text;
     cursor: pointer;
 
-    &:hover{
-      opacity: .5;
+    &:not(:disabled):hover{
+      opacity: .6;
+    }
+
+    &:disabled{
+      cursor: not-allowed;
+      opacity: .4;
     }
 
     &.new{

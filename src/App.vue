@@ -1,6 +1,5 @@
 <template>
   <SealOfTrue position="right" />
-  <SealOfTrue position="left" />
 
   <div class="container">
     <header class="header">
@@ -8,10 +7,11 @@
         Chuck Noris Super Real True Facts
       </h1>
     </header>
-
-
     <Facts />
   </div>
+
+  <SealOfTrue position="left" />
+
 </template>
 
 <script>
