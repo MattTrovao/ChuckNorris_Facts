@@ -1,17 +1,19 @@
 <template>
   <main class="box">
-    <div class="pictures">
-      <img
-        :src="factImg.url"
-        alt="Chuck Norris Picture, in a way is like he is saying the facts about himself"
-        draggable="false"
-      />
-    </div>
-    <div class="facts">
-      <h2>
-        {{ fact }}
-      </h2>
-    </div>
+    <template v-if="fact">
+      <div class="pictures">
+        <img
+          :src="factImg.url"
+          alt="Chuck Norris Picture, in a way is like he is saying the facts about himself"
+          draggable="false"
+        />
+      </div>
+      <div class="facts">
+        <h2>
+          {{ fact }}
+        </h2>
+      </div>
+    </template>
   </main>
 
   <div class="actions">
