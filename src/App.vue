@@ -12,7 +12,8 @@
 
     <footer class="footer">
       <p class="footer__text">
-        Project created using the Chuck Norris API. This website and its creators are not affiliated with Chuck Norris, any motion picture corporation, any television corporation, parent, or affiliate corporation. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners.
+        Project created using the Chuck Norris API. This website and its creators are not affiliated with Chuck Norris, any motion picture corporation, any television corporation, parent, or affiliate corporation. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners. <br/>
+        Project created by <a href="https://github.com/MattTrovao" target="_blank" rel="noopener noreferrer">MattTrovao</a>
       </p>
     </footer>
   </div>
